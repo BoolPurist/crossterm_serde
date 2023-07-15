@@ -1,0 +1,22 @@
+---
+source: src/key_event_serde.rs
+expression: actual
+---
+KeyBoard(
+  move_up: SerDeConfigKeyEvent(
+    code: "Up",
+    modifiers: "NONE",
+  ),
+  move_down: SerDeConfigKeyEvent(
+    code: "Down",
+    modifiers: "ALT",
+  ),
+  move_left: SerDeConfigKeyEvent(
+    code: "Left",
+    modifiers: "ALT+CONTROL",
+  ),
+  move_right: SerDeConfigKeyEvent(
+    code: "Right",
+    modifiers: "SUPER",
+  ),
+)

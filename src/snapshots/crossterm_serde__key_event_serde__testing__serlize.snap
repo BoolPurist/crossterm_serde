@@ -1,0 +1,22 @@
+---
+source: src/key_event_serde.rs
+expression: actual
+---
+(
+    move_up: (
+        code: "Up",
+        modifiers: "NONE",
+    ),
+    move_down: (
+        code: "Down",
+        modifiers: "ALT",
+    ),
+    move_left: (
+        code: "Left",
+        modifiers: "ALT+CONTROL",
+    ),
+    move_right: (
+        code: "Right",
+        modifiers: "SUPER",
+    ),
+)
